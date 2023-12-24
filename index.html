@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <form action="">
+        <img src="man.png" width="100px" alt="">
+        <br>
+        <input type="text" placeholder="Username" required
+        oninvalid="this.setCustomValidity('Name is Required')"
+        oninput="this.setCustomValidity('')"/>
+        <br>
+        <input type="password" placeholder="Password" required
+        oninvalid="this.setCustomValidity('Password is Required')"
+       oninput="this.setCustomValidity('')"/>
+        <br>
+        <button>Login</button>
+        <br>
+        <a href="">Forget Password</a>
+    </form>
+</body>
+</html>
